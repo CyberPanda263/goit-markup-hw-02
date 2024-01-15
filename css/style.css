@@ -94,16 +94,12 @@ h3 {
 }
 /*advantages section*/
 
-.advantages_title {
-    display: none;
-}
-
 /*team section*/
 
 .team {
     background-color: #F4F4FD;
 }
-.team_list {
+.team_list_item {
     background-color: #FFFFFF;
 }
 
