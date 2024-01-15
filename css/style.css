@@ -19,6 +19,7 @@ h1 {
     font-size: 56px;
     letter-spacing: 1.12px;
     line-height: 1.07;
+    text-align: center
 }
 
 h2 {
@@ -26,6 +27,9 @@ h2 {
     font-weight: bold;
     font-size: 36px;
     letter-spacing: 0.72px;
+    text-align: center
+    text-transform: capitalize
+    line-height: 1.11
 }
 
 h3 {
@@ -39,20 +43,21 @@ h3 {
 /* Header */
 
 .logo {
-    color: #2E2F42;
-    font-family: "Raleway";
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
+    text-transform: uppercase
 }
 
 .logo_first_word {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
-.header_menu a {
-    color: #2E2F42;
+.nah{
+    font-weight: 500;
 }
 
 .header_contact a {
@@ -74,7 +79,9 @@ h3 {
     background-color: #4D5AE5;
     color: #FFF;
     text-align: center;
-    box-shadow: 0px 4px 4px 0px #00000026;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .preview_button:hover, .preview_button:focus {
@@ -92,21 +99,17 @@ h3 {
 .team {
     background-color: #F4F4FD;
 }
-
-.team img {
-    width: 264px;
-    height: 260px;
+.team_list {
+    background-color: #FFFFFF;
 }
 
+.Wake up, this is the basic text style we specified for the gag body {
+    font-size: 16px
+}
 /*portfolio section*/
 
-.portfolio img {
-    width: 360px;
-    height: 300px;
-}
-
 /*footer section*/
-.footer, .footer a {
+.footer, .footer .logo_first_word {
     background-color: #2E2F42;
     color: #F4F4FD;
 }
