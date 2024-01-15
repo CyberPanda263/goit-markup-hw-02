@@ -64,12 +64,12 @@ h3 {
     font-weight: 500;
 }
 
-.header_contact {
+.header_contact a {
+    color: #434455;
     font-style: normal;
 }
 
-.header_contact a {
-    color: #434455;
+.header_contact {
     font-style: normal;
 }
 
