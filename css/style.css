@@ -66,6 +66,7 @@ h3 {
 
 .header_contact a {
     color: #434455;
+    font-style: normal;
 }
 
 .header_menu a:hover, .header_menu a:focus, .header_contact a:hover, .header_contact a:focus {
