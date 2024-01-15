@@ -52,7 +52,11 @@ h3 {
     text-transform: uppercase
 }
 
-.logo_first_word {
+.logo a {
+    color: #4d5ae5;
+}
+
+.logo_first_word, .header_menu a {
     color: #2E2F42;
 }
 
