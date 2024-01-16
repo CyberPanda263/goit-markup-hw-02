@@ -2,29 +2,28 @@ body {
     background-color: #FFFFFF;
     color: #434455;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
 }
 
-body a, ul {
+body a {
     text-decoration: none;
+}
+
+body ul {
     list-style: none;
 }
 
-h1 {
-    font-weight: bold;
+.preview_title {
+    font-weight: 700;
     font-size: 56px;
     letter-spacing: 1.12px;
     line-height: 1.07;
     text-align: center
 }
 
-h2 {
+.advantages_title, .team_title, .portfolio_title {
     color: #2E2F42;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.72px;
     text-align: center;
@@ -32,12 +31,17 @@ h2 {
     line-height: 1.11;
 }
 
-h3 {
+.item_title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+}
+
+.item_content, .footer_content {
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 
 /* Header */
@@ -60,13 +64,16 @@ h3 {
     color: #2E2F42;
 }
 
-.nah{
+.header_menu_item {
     font-weight: 500;
+    line-height: 1.5;
 }
 
 .header_contact a {
     color: #434455;
-    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 
 .header_contact {
@@ -108,7 +115,7 @@ h3 {
     background-color: #FFFFFF;
 }
 
-.Wake up, this is the basic text style we specified for the gag body {
+.item_content {
     font-size: 16px
 }
 /*portfolio section*/
