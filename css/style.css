@@ -67,6 +67,7 @@ body ul {
 .header_menu_item {
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.02em
 }
 
 .header_contact a {
